@@ -21,7 +21,11 @@ export function Comment({ content, onDeleteComment }: CommentProps) {
 
     return (
         <div className={styles.comment}>
-            <Avatar hasBorder={false} src="https://portfolio-4kwjctl8y-sarawwx.vercel.app/images/me.jpg" />
+            <Avatar 
+                hasBorder={false} 
+                src="https://portfolio-4kwjctl8y-sarawwx.vercel.app/images/me.jpg" 
+                alt=""
+            />
         
             <div className={styles.commentBox}>
                 <div className={styles.commentContent}>
