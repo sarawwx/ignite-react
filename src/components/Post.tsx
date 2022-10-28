@@ -7,8 +7,6 @@ import { Comment } from './Comment';
 import styles from './Post.module.css';
 
 
-
-
 export function Post({ author, publishedAt, content}) {
     const [comments, setComments] = useState([
         'Post show'
