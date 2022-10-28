@@ -15,13 +15,13 @@ const posts = [
     id: 1,
     author: {
       avatarUrl: 'https://portfolio-4kwjctl8y-sarawwx.vercel.app/images/me.jpg',
-      name: 'Marcia',
+      name: 'Sara',
       role: 'Web Developer'
     },
     content: [
       {type: 'paragraph', content: 'Alô alô', },
       {type: 'paragraph', content: 'Acabei de subir um novo projeto no meu portifólio', },
-      {type: 'link', content: 'jane.design/doctorcare'},
+      {type: 'link', content: 'https://portfolio-sarawwx.vercel.app/'},
     ],
     publishedAt: new Date('2022-10-21 15:00:00'),
   },
@@ -29,13 +29,13 @@ const posts = [
     id: 2,
     author: {
       avatarUrl: 'https://portfolio-4kwjctl8y-sarawwx.vercel.app/images/me.jpg',
-      name: 'Mauricio',
+      name: 'Sara',
       role: 'Web Developer'
     },
     content: [
       {type: 'paragraph', content: 'Alô alô', },
       {type: 'paragraph', content: 'Acabei de subir um novo projeto no meu portifólio', },
-      {type: 'link', content: 'jane.design/doctorcare' },
+      {type: 'link', content: 'https://portfolio-sarawwx.vercel.app/' },
     ],
     publishedAt: new Date('2022-10-24 15:00:00'),
   },
